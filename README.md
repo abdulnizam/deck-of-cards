@@ -40,6 +40,10 @@ We also consider the extensibility of the code produced. Well-factored code shou
  * I can draw any given number of cards from the deck and then sort the drawn cards, with the cards being removed from the original deck.  ✓
  * Sorted cards are sorted by suit: Clubs, Spades, Hearts, Diamonds; then by value: Ace is high.  ✓
 
+
+  * Updated Readme with running flow ✓
+  * Completed Unit Tests ✓
+  * Completed Cypress Tests ✓
 ## Run
 You need node and npm to run this locally. Go to https://nodejs.org to install the latest stable version.
 
