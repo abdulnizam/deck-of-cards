@@ -1,0 +1,142 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row > button {
+  margin-left: 4px;
+  margin-right: 8px;
+}
+
+.row:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+
+.button {
+  appearance: none;
+  background: none;
+  font-size: 32px;
+  padding-left: 12px;
+  padding-right: 12px;
+  outline: none;
+  border: 2px solid transparent;
+  color: rgb(112, 76, 182);
+  padding-bottom: 4px;
+  cursor: pointer;
+  background-color: rgba(112, 76, 182, 0.1);
+  border-radius: 2px;
+  transition: all 0.15s;
+}
+
+
+.button:hover,
+.button:focus {
+  border: 2px solid rgba(112, 76, 182, 0.4);
+}
+
+.button:active {
+  background-color: rgba(112, 76, 182, 0.2);
+}
+
+
+.displayCard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin:5px;
+  font-size:22px;
+  height: 100px;
+  width: 75px;
+  border: 1px solid black;
+  border-radius: .5rem;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .row {
+    display: grid;
+  }
+  .button {
+    margin-bottom: 10px;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+  .row {
+    display: flex;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  .row {
+    display: flex;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  .row {
+    display: flex;
+  }
+}
+
+.cards {
+  position: relative;
+  height: 100px;
+  width: 75px;
+  border: 1px solid black;
+  border-radius: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+
+.cards.red {
+  color: red;
+}
+
+.cards.black {
+  color: black;
+}
+
+.cards::before,
+.cards::after {
+  position: absolute;
+  content: attr(data-value);
+  font-size: 1rem;
+}
+
+.cards::before {
+  top: .5rem;
+  left: .5rem
+}
+
+.cards::after {
+  bottom: .5rem;
+  right: .5rem;
+  transform: rotate(180deg);
+}
+
+.deck {
+  background-color: seagreen;
+  padding: 30px;
+  border: solid 2px;
+}
+
+.deck > h1 {
+  color: white;
+}

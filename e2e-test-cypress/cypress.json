@@ -1,0 +1,19 @@
+{
+    "fileServerFolder": ".",
+    "fixturesFolder": "./src/fixtures",
+    "integrationFolder": "./src/integration",
+    "modifyObstructiveCode": false,
+    "supportFile": "./src/support/index.ts",
+    "pluginsFile": "./src/plugins/index.ts",
+    "video": false,
+    "videosFolder": "./dist/cypress/apps/videos",
+    "screenshotsFolder": "./dist/cypress/apps/screenshots",
+    "chromeWebSecurity": true,
+    "viewportWidth": 1280,
+    "viewportHeight": 1050,
+    "projectId": "2s9uwa",
+    "retries": {
+        "runMode": 4,
+        "openMode": 0
+    }
+}

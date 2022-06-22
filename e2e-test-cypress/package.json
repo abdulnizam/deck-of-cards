@@ -1,0 +1,20 @@
+{
+  "name": "e2etests-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open --browser chrome",
+    "test": "cypress run --browser chrome",
+    "test:spec": "cypress run --browser chrome --spec",
+    "test:video": "cypress run --browser chrome --config video=true",
+    "test:headfull": "cypress run --headed --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "cypress": "^9.2.1",
+    "typescript": "^4.5.2"
+  }
+}
