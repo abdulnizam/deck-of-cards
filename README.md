@@ -34,7 +34,7 @@ Bonus points are given to those who spend time ensuring their code is continuous
 We also consider the extensibility of the code produced. Well-factored code should be relatively easily extended.
 
 
-## Acceptance Criteria - Completed Status
+## Completed Status
  * I can shuffle the deck of cards.  ✓
  * I can draw any given number of cards from the deck, with the cards being removed from the original deck.  ✓
  * I can draw any given number of cards from the deck and then sort the drawn cards, with the cards being removed from the original deck.  ✓
