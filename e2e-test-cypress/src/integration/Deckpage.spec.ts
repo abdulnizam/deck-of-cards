@@ -1,4 +1,4 @@
-const host = "http://localhost:4000/";
+const host = "http://localhost:3000/";
 
 describe("Deck Page e2e tests", () => {
 
