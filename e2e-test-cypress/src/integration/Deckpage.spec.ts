@@ -33,14 +33,5 @@ describe("Deck Page e2e tests", () => {
         cy.get(`div[data-testid="cards-true"]`).should("have.length",2);
         cy.get(showCard).click({force: true});
       });
-
-    // it("should have country sections", () => {
-    //   cy.get(`div[data-testid="vacation-country-section"]`);
-    // });
-
-    // it("Main CTA title should be visible", () => {
-    //   cy.get(`div[data-testid="vacation-dropdown-title"]`).scrollIntoView();
-    // });
-
     });
 });
